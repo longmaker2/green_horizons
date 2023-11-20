@@ -28,7 +28,7 @@ This MERN (MongoDB, Express, ReactJS, NodeJS) stack project aims to create an on
 
 ### 5. Run the Server:
 
-    ```npm start```
+    ```npm run start-dev```
 
 ### 6. Run the ReactJS app for Frontend:
 
