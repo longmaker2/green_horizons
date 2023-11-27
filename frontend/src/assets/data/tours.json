@@ -1,132 +1,145 @@
 [
   {
-    "title": "Westminister Bridge",
-    "city": "London",
-    "address": "Somewhere in London",
+    "title": "Boma National Park",
+    "city": "Boma, South Sudan",
+    "address": "Greater Pibor Administrative Area",
     "distance": 300,
     "price": 99,
     "maxGroupSize": 10,
-    "desc": "this is the description",
+    "desc": "Environmentalists and naturalists have been arguing for years over whether Boma National Park is the home of the largest or the second-largest annual land mammal migration on the planet. Some say it’s the Serengeti and the movement of the countless wildebeest there, others – most notably the South Sudanese themselves! – claim the honor for this vast swathe of wilderness that clings to the edge of the Ethiopian border in the east. But whether you come to see the great peregrinations of the white-eared kob or not, you can rest assured the park will be one to remember. Zebras and gazelles, oryx, cheetah and gliding vultures are all visible, hiding amidst the rolling savannah and occasional bluffs of rock.",
     "reviews": [],
 
     "photo": "/tour-images/tour-img01.jpg",
     "featured": true
   },
   {
-    "title": "Bali, Indonesia",
-    "city": "Bali",
-    "address": "Somewhere in Indonesia",
+    "title": "Nimule National Park",
+    "city": "Nimule, South Sudan",
+    "address": "Eastern Equatoria State",
     "distance": 400,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Nimule National Park is a national park in South Sudan. It is located approximately 192 kilometres (119 mi), by road, southeast of Juba, the capital and largest city in that country. This location lies close to the international border with the Republic of Uganda. The coordinates of Nimule National Park are: 3°35′00″N 32°03′00″E. The park is named after the nearby town of Nimule, where the headquarters of the park are located.",
     "reviews": [],
 
     "photo": "/tour-images/tour-img02.jpg",
     "featured": true
   },
   {
-    "title": "Snowy Mountains, Thailand",
-    "city": "Bangkok",
-    "address": "Somewhere in Thailand",
+    "title": "Shambe Nature Reserve",
+    "city": "Shambe, South Sudan",
+    "address": "Lake State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "First gazetted way back in the mid-1980s, the Shambe National Park can be seen as the southern extension of the aforementioned Ez Zeraf Reserve. That makes it home to an important part of the White Nile River ecosystem; a place of curious oxbow lakes and pop-up flood plains. Animal wise, you’ll get all of the biodiversity of the larger park to the north, along with lions and hippos, wild foxes and swinging primates of different kinds, not to mention elephants by the hundred! Shambe Nature Reserve is also a designated birding area, made popular thanks to countless migratory species that pass this way throughout the year.",
     "reviews": [],
 
     "photo": "/tour-images/tour-img03.jpg",
     "featured": true
   },
   {
-    "title": "Beautiful Sunrise, Thailand",
-    "city": "Phuket",
-    "address": "Somewhere in Thailand",
+    "title": "Bandingilo National Park",
+    "city": "Bandingilo, South Sudan",
+    "address": "Central Equatoria State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Another great place to come and witness the breathtaking phenomenon of the annual migration of the white-eared kob, Bandingilo National Park is the natural jewel of the Equatoria region. Spread out over the riparian grass plains that stretch eastwards from the White Nile River, it’s a surprisingly accessible place – thanks largely to that proximity to the capital at Juba; and surprising because stats show that still hardly anyone comes here! If you do decide to take the trip after the current Sudanese troubles reside, you can expect the likes of Nubian giraffes and elephants to pepper the vistas at Bandingilo!",
     "reviews": [],
 
     "photo": "/tour-images/tour-img04.jpg",
     "featured": true
   },
   {
-    "title": "Nusa Pendia Bali, Indonesia",
-    "city": "Bali",
-    "address": "Somewhere in Indonesia",
+    "title": "Historical Town, Bor",
+    "city": "Bor, South Sudan",
+    "address": "Jonglei State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Bor is a town in South Sudan. It also serves as the capital of Jonglei State, and the headquarters of Bor County. The town is located on the east side of the White Nile, in central South Sudan, approximately 197 kilometres (122 mi), by road, northwest of Juba, the capital and largest city in that country. The coordinates of Bor are: 6°12′36″N 31°33′00″E. Bor is the site of the main campus of Dr. John Garang University, the largest public university in the country.",
     "reviews": [],
 
     "photo": "/tour-images/tour-img05.jpg",
     "featured": true
   },
   {
-    "title": "Cherry Blossoms Spring",
-    "city": "Tokyo",
-    "address": "Somewhere in Japan",
+    "title": "Beautiful City, Malakal",
+    "city": "Malakal, South Sudan",
+    "address": "Upper Nile State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Malakal is a city in South Sudan and second largest city after the country's capital Juba. It is the capital of Malakal State, one of the 32 states of South Sudan. It is located on the banks of the White Nile.",
     "reviews": [],
 
     "photo": "/tour-images/tour-img06.jpg",
     "featured": true
   },
   {
-    "title": "Holmen Lofoten, France",
-    "city": "Paris",
-    "address": "Somewhere in France",
+    "title": "Lake Shambe",
+    "city": "Shambe, South Sudan",
+    "address": "Lake State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Lake Shambe is a lake in South Sudan. It is located in the southern part of the country, in the state of Lakes. The lake is located approximately 50 kilometres (31 mi), by road, northwest of the town of Yirol, the location of the state headquarters. This location lies approximately 300 kilometres (190 mi), by road, northwest of Juba, the capital and largest city in South Sudan. The coordinates of Lake Shambe are: 6°58′00″N 30°20′24″E. Lake Shambe is a shallow, freshwater lake, with an average depth of 1.5 metres (4 ft 11 in). The lake is fed by the waters of the Bahr el Ghazal River, which flows from the north, through the town of Yirol, before emptying into the lake. The lake is approximately 25 kilometres (16 mi), by road, south of the town of Yirol, the location of the state headquarters. This location lies approximately 300 kilometres (190 mi), by road, northwest of Juba, the capital and largest city in South Sudan. The coordinates of Lake Shambe are: 6°58′00″N 30°20′24″E.",
     "reviews": [],
 
     "photo": "/tour-images/tour-img07.jpg",
     "featured": true
   },
   {
-    "title": "Beautiful Snowy Mountains",
-    "city": "Bangkok",
-    "address": "Somewhere in Thailand",
+    "title": "Mount Imatong",
+    "city": "Kapoeta, South Sudan",
+    "address": "Eastern Equatoria State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Mount Imatong is a mountain in South Sudan. It is located in the Imatong Central Forest Reserve, in the state of Eastern Equatoria, in the southeastern part of South Sudan, near the international border with the Republic of Uganda. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Mount Imatong are: 4°59′00″N 32°00′00″E. Mount Imatong is the highest mountain in South Sudan, with an elevation of 3,187 metres (10,456 ft).",
     "reviews": [],
 
-    "photo": "/tour-images/tour-img03.jpg",
+    "photo": "/tour-images/tour-img11.jpg",
     "featured": true
   },
   {
-    "title": "Jaflong, Sylhet",
-    "city": "Sylhet",
-    "address": "Somewhere in Sylhet",
+    "title": "Mount Kinyeti",
+    "city": "Kapoeta, South Sudan",
+    "address": "Eastern Equatoria State",
     "distance": 100,
     "price": 99,
     "maxGroupSize": 5,
-    "desc": "this is the description",
+    "desc": " Mount Kinyeti is a mountain in South Sudan. It is located in the Imatong Central Forest Reserve, in the state of Eastern Equatoria, in the southeastern part of South Sudan, near the international border with the Republic of Uganda. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Mount Kinyeti are: 4°59′00″N 32°00′00″E. Mount Kinyeti is the second-highest mountain in South Sudan, with an elevation of 3,187 metres (10,456 ft).",
     "reviews": [],
 
     "photo": "/tour-images/tour-img08.jpg",
     "featured": false
   },
   {
-    "title": "Cox's Bazar Sea Beach",
-    "city": "Chittagong",
-    "address": "Somewhere in Chittagong",
+    "title": "Jebel Kujur",
+    "city": "Juba, South Sudan",
+    "address": "Central Equatoria State",
     "distance": 500,
     "price": 99,
     "maxGroupSize": 8,
-    "desc": "this is the description",
+    "desc": "Jebel Kujur is a mountain in South Sudan. It is located in the state of Central Equatoria, in the southeastern part of South Sudan, near the international border with the Republic of Uganda. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Jebel Kujur are: 4°59′00″N 32°00′00″E. Jebel Kujur is the third-highest mountain in South Sudan, with an elevation of 3,187 metres (10,456 ft).",
     "reviews": [],
 
     "photo": "/tour-images/tour-img09.jpg",
+    "featured": false
+  },
+  {
+    "title": "Visit the John Garang Mausoleum",
+    "city": "Juba, South Sudan",
+    "address": "Central Equatoria State",
+    "distance": 500,
+    "price": 99,
+    "maxGroupSize": 8,
+    "desc": "The John Garang Mausoleum is a monument in Juba, South Sudan. It was built in honor of John Garang, the founder of the Sudan People's Liberation Army and the first Vice President of South Sudan. The mausoleum is located in the southern part of Juba, near the Juba International Airport. The mausoleum is located approximately 3 kilometres (1.9 mi), by road, south of the central business district of Juba, the capital and largest city in South Sudan. The coordinates of the John Garang Mausoleum are: 4°50′48″N 31°35′24″E. The mausoleum is open to the public, free of charge, from 8:00 am until 6:00 pm, daily. The mausoleum is a popular tourist attraction in Juba, the capital and largest city in South Sudan.",
+    "reviews": [],
+
+    "photo": "/tour-images/tour-img10.jpg",
     "featured": false
   }
 ]

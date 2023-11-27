@@ -12,7 +12,7 @@ import { BASE_URL } from "./../utils/config";
 
 const Register = () => {
   const [credentials, setCredentials] = useState({
-    UserName: undefined,
+    userName: undefined,
     email: undefined,
     password: undefined,
   });

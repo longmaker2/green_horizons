@@ -1,5 +1,7 @@
 import React, { useState, useContext } from "react";
 
+import Cookies from "js-cookie";
+
 import { Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/login.css";
@@ -12,7 +14,7 @@ import { BASE_URL } from "./../utils/config";
 
 const Login = () => {
   const [credentials, setCredentials] = useState({
-    email: undefined,
+    identifier: undefined,
     password: undefined,
   });
 
@@ -39,12 +41,17 @@ const Login = () => {
       });
 
       const result = await res.json();
-      if (!res.ok) alert(result.message);
+      if (!res.ok) {
+        alert(result.message);
+      } else {
+        // Set the accessToken cookie
+        Cookies.set("accessToken", result.token, { path: "/" });
 
-      console.log(result.data);
+        console.log("Received Token:", result.token); // Log the received token
 
-      dispatch({ type: "LOGIN_SUCCESS", payload: result.data });
-      navigate("/");
+        dispatch({ type: "LOGIN_SUCCESS", payload: result.data });
+        navigate("/");
+      }
     } catch (err) {
       dispatch({ type: "LOGIN_FAILURE", payload: err.message });
     }
@@ -70,9 +77,9 @@ const Login = () => {
                   <FormGroup>
                     <input
                       type="text"
-                      placeholder="Enter your username"
+                      placeholder="Enter your username or email"
                       required
-                      id="username"
+                      id="identifier"
                       onChange={handleChange}
                     />
                   </FormGroup>

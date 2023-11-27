@@ -32,7 +32,10 @@ const TourDetails = () => {
     maxGroupSize,
   } = tour;
 
+  console.log("Reviews after submission:", reviews);
   const { totalRating, avgRating } = calculateAvgRating(reviews);
+  console.log("Total Rating:", totalRating);
+  console.log("Average Rating:", avgRating);
 
   // format date
   const options = { day: "numeric", month: "long", year: "numeric" };
@@ -45,6 +48,11 @@ const TourDetails = () => {
     try {
       if (!user || user === undefined || user === null) {
         alert("Please sign in");
+      }
+
+      if (tourRating === null || tourRating === undefined) {
+        alert("Please provide a rating");
+        return;
       }
 
       const reviewObj = {
@@ -75,6 +83,7 @@ const TourDetails = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    console.log("Tour data:", tour);
   }, [tour]);
 
   return (
