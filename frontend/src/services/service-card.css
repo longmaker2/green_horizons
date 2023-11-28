@@ -3,6 +3,11 @@
   border-bottom: 1px solid var(--secondary-color);
   border-right: 1px solid var(--secondary-color);
   border-radius: 0.5rem;
+  transition: transform 0.8s ease;
+}
+
+.service__item:hover {
+  transform: translateY(-10px);
 }
 
 .service__Img {

@@ -28,6 +28,12 @@
   border-radius: 20px;
   object-fit: cover;
   border: 1px solid var(--secondary-color);
+  transition: transform 0.8s ease;
+}
+
+.hero__img-box img:hover,
+.hero__img-box video:hover {
+  transform: scale(1.1);
 }
 
 .hero__content {
@@ -125,6 +131,11 @@
 
   .hero__video-box {
     display: block;
+    transition: transform 0.8s ease;
+  }
+
+  .hero__video-box:hover {
+    transform: scale(0.9);
   }
 
   .services__title,
