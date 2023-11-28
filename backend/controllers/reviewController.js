@@ -15,16 +15,17 @@ export const createReview = async (req, res) => {
       },
     });
 
-    res
-      .status(200)
-      .json({
-        success: true,
-        message: "Review submitted successfully",
-        data: savedReview,
-      });
+    res.status(200).json({
+      success: true,
+      message: "Review submitted successfully",
+      data: savedReview,
+    });
   } catch (err) {
-    res
-      .status(500)
-      .json({ success: false, message: "Failed to submit review" });
+    console.error("Error submitting review:", err);
+    res.status(500).json({
+      success: false,
+      message: "Failed to submit review",
+      error: err.message, // Include the actual error message in the response
+    });
   }
 };
