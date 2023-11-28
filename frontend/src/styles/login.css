@@ -68,7 +68,7 @@
 
 .login__form p a {
   color: #fff;
-  text-decoration: none;
+  /* text-decoration: none; */
   margin-left: 5px;
   font-weight: 500;
 }
