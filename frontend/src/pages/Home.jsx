@@ -39,16 +39,13 @@ const Home = () => {
                   <span className="highlight">Wildlife Sanctuary</span>
                 </h1>
                 <p>
-                  The "Green Horizons: South Sudan's Tourism & Wildlife
-                  Sanctuary" project seeks to unlock South Sudan's untapped
-                  tourism potential while promoting biodiversity conservation
-                  and responsible tourism. This project addresses the existing
-                  challenges of inadequate tourism infrastructure in South
-                  Sudan, as well as the underrepresentation of conservation
-                  efforts online. By providing a one-stop online platform, the
-                  project aims to enhance tourist engagement, raise awareness
-                  about conservation, foster collaboration with local
-                  communities, and stimulate economic growth through tourism.
+                  Green Horizons addresses the existing challenges of inadequate
+                  tourism infrastructure in South Sudan, as well as the
+                  underrepresentation of conservation efforts online. By
+                  providing a one-stop online platform, the project aims to
+                  enhance tourist engagement, raise awareness about
+                  conservation, foster collaboration with local communities, and
+                  stimulate economic growth through tourism.
                 </p>
               </div>
             </Col>
