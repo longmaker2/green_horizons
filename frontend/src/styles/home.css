@@ -120,8 +120,6 @@
   margin-top: 1rem;
 }
 
-/* Existing styles */
-
 @media only screen and (max-width: 992px) {
   .hero__content h1 {
     font-size: 2.7rem;
@@ -194,8 +192,26 @@
   .experience__content h2 {
     font-size: 1.5rem;
   }
+  .experience__content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .experience__content p {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .counter__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .counter__box {
+    margin-bottom: 1rem;
+  }
 
   .experience__img {
     margin-top: 1rem;
+  }
+  .experience__img img {
+    width: 100%;
   }
 }
