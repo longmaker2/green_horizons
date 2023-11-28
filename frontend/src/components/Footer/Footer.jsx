@@ -47,8 +47,8 @@ const Footer = () => {
             <div className="logo">
               <img src={logo} alt="Logo" />
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-                cum molestias.
+                Join our community dedicated to sustainable tourism and wildlife
+                preservation.
               </p>
 
               <div className="social__links d-flex align-items-center gap-4">

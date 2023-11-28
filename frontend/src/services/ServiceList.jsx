@@ -10,7 +10,7 @@ const serviceData = [
   {
     imgUrl: weatherImg,
     title: "Calculate Weather",
-    description: "Check the weather before you go!",
+    description: "Check the weather forecast before you go!",
   },
   {
     imgUrl: guideImg,

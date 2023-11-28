@@ -19,10 +19,10 @@ const Newsletter = () => {
               </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
-                obcaecati odio totam autem eligendi vero earum quos dolorem
-                accusantium odit esse rerum blanditiis sunt voluptatum ipsam
-                nulla. Neque, perspiciatis nulla.
+                Are you ready to embark on a journey to discover the hidden
+                treasures of South Sudan? Green Horizons: South Sudan's Tourism
+                & Wildlife Sanctuary is your passport to a world of breathtaking
+                landscapes, unique wildlife, and rich cultural experiences.
               </p>
             </div>
           </Col>
