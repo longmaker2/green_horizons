@@ -41,7 +41,7 @@
 .services__subtitle {
   font-size: 2.2rem;
   font-weight: 500;
-  color: #ee6e6e;
+  color: var(--heading-color);
   font-family: var(--subtitle-font-name);
 }
 
