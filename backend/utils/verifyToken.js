@@ -18,6 +18,15 @@ export const verifyToken = (req, res, next) => {
           .status(401)
           .json({ success: false, message: "Token has expired" });
       }
+
+      //just added this part now
+      if (!user) {
+        console.error("User not found in verifyToken middleware");
+        return res
+          .status(401)
+          .json({ success: false, message: "You are not authorized" });
+      }
+
       console.error("Verify Token Error:", err.message);
       return res
         .status(401)
