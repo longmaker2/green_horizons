@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
-  origin: "https://green-horizons.onrender.com",
+  origin: "https://long-green-horizons.vercel.app/",
   credentials: true,
 };
 
