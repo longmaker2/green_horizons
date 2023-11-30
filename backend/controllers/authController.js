@@ -46,9 +46,6 @@ export const register = async (req, res) => {
 };
 
 // user login
-// authController.js
-
-// ...
 
 export const login = async (req, res) => {
   console.log("Login Request Body:", req.body);
