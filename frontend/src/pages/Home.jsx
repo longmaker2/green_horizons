@@ -51,17 +51,17 @@ const Home = () => {
             </Col>
 
             <Col lg="2">
-              <div className="hero__img-box mt-4">
+              <div className="hero__img-box mt-5">
                 <img src={heroImg} alt="Hero img" />
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero__img-box hero__video-box mt-4">
+              <div className="hero__img-box hero__video-box mt-5">
                 <video src={heroVideo} alt="Hero Video" controls />
               </div>
             </Col>
             <Col lg="2">
-              <div className="hero__img-box mt-4">
+              <div className="hero__img-box mt-5">
                 <img src={heroImg02} alt="Hero img" />
               </div>
             </Col>
