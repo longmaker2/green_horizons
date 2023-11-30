@@ -69,3 +69,6 @@ This MERN (MongoDB, Express, ReactJS, NodeJS) stack project aims to create an on
 ### 12. Acknowledgments
 
 For detailed documentation and support, please visit the [project repository](https://github.com/longmaker2/green_horizons.git).
+
+Author: Long Maker Long Deng
+Email: l.deng@alusutudent.com
