@@ -19,7 +19,7 @@ export const verifyToken = (req, res, next) => {
           .json({ success: false, message: "Token has expired" });
       }
 
-      //just added this part now
+      // If token is invalid
       if (!user) {
         console.error("User not found in verifyToken middleware");
         return res
