@@ -18,7 +18,7 @@ const corsOptions = {
   credentials: true,
 };
 
-// Apply CORS middleware at the top
+// Applys CORS middleware at the top
 app.use(cors(corsOptions));
 
 // database connection
@@ -45,7 +45,7 @@ app.use("/api/v1/users", userRoute);
 app.use("/api/v1/review", reviewRoute);
 app.use("/api/v1/booking", bookingRoute);
 
-// Redirect root URL to "/tours"
+// Redirects root URL to "/tours"
 app.get("/", (req, res) => {
   res.redirect("/api/v1/tours");
 });
