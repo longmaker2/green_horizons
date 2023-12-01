@@ -46,7 +46,6 @@ export const register = async (req, res) => {
 };
 
 // user login
-
 export const login = async (req, res) => {
   console.log("Login Request Body:", req.body);
   const identifier = req.body.identifier;
@@ -112,6 +111,9 @@ export const login = async (req, res) => {
         data: { ...rest },
         role,
       });
+
+    // Log the sent token
+    console.log("Token sent:", token);
   } catch (err) {
     console.error("Login failed:", err);
 
