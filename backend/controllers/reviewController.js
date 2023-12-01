@@ -3,8 +3,8 @@ import Review from "../models/Review.js";
 
 export const createReview = async (req, res) => {
   const tourId = req.params.tourId;
-  req.body.userToken = req.cookies.accesToken;
-  const newReview = new Review(req.body);
+  req.body.token = req.cookies.accesToken;
+  const newReview = new Review({ ...req.body });
 
   try {
     const savedReview = await newReview.save();
