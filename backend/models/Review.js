@@ -10,6 +10,10 @@ const reviewSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    userToken: {
+      type: String,
+      required: true,
+    },
     reviewText: {
       type: String,
       required: true,
