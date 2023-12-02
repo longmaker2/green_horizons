@@ -48,6 +48,7 @@ const TourDetails = () => {
     try {
       if (!user || user === undefined || user === null) {
         alert("Please sign in");
+        return;
       }
 
       if (tourRating === null || tourRating === undefined) {

@@ -19,6 +19,7 @@ const corsOptions = {
     "https://long-green-horizons.vercel.app",
   ],
   credentials: true,
+  sameSite: "None",
 };
 
 // Applys CORS middleware at the top
