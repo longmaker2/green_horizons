@@ -104,6 +104,7 @@ export const login = async (req, res) => {
       .cookie("accessToken", token, {
         httpOnly: true,
         expires: new Date(Date.now() + 15 * 24 * 60 * 60 * 1000), // 15 days
+        secure: process.env.NODE_ENV === "production",
       })
       .status(200)
       .json({
