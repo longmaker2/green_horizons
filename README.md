@@ -33,6 +33,7 @@ This MERN (MongoDB, Express, ReactJS, NodeJS) stack project aims to create an on
 ### 6. Run the ReactJS app for Frontend:
 
     ```cd ../frontend```
+    ```npm install```
     ```npm start```
 
 ### 7. Access the Application:

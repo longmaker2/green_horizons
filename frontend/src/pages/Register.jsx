@@ -1,8 +1,9 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 import { Container, Row, Col, Form, FormGroup, Button } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
 import "../styles/login.css";
+import Loading from "./Loading";
 
 import registerImg from "../assets/images/register.png";
 import userIcon from "../assets/images/user.png";
@@ -11,6 +12,17 @@ import { AuthContext } from "./../context/AuthContext";
 import { BASE_URL } from "./../utils/config";
 
 const Register = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
+
   const [credentials, setCredentials] = useState({
     userName: undefined,
     email: undefined,
@@ -48,65 +60,71 @@ const Register = () => {
   };
 
   return (
-    <section>
-      <Container>
-        <Row>
-          <Col lg="8" className="m-auto">
-            <div className="register__container d-flex justify-content-between">
-              <div className="login__img">
-                <img src={registerImg} alt="login" />
-              </div>
+    <>
+      {loading ? (
+        <Loading />
+      ) : (
+        <section>
+          <Container>
+            <Row>
+              <Col lg="8" className="m-auto">
+                <div className="register__container d-flex justify-content-between">
+                  <div className="login__img">
+                    <img src={registerImg} alt="login" />
+                  </div>
 
-              <div className="login__form">
-                <div className="user">
-                  <img src={userIcon} alt="" />
+                  <div className="login__form">
+                    <div className="user">
+                      <img src={userIcon} alt="" />
+                    </div>
+                    <h2>Register</h2>
+
+                    <Form onSubmit={handleClick}>
+                      <FormGroup>
+                        <input
+                          type="text"
+                          placeholder="Username"
+                          required
+                          id="username"
+                          onChange={handleChange}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <input
+                          type="email"
+                          placeholder="Enter your email"
+                          required
+                          id="email"
+                          onChange={handleChange}
+                        />
+                      </FormGroup>
+                      <FormGroup>
+                        <input
+                          type="password"
+                          placeholder="Enter your password"
+                          required
+                          id="password"
+                          onChange={handleChange}
+                        />
+                      </FormGroup>
+                      <Button
+                        className="btn secondary__btn auth__btn"
+                        type="submit"
+                      >
+                        Create Account
+                      </Button>
+                    </Form>
+                    <p>
+                      Already have an account? <Link to="/login">Login</Link>
+                    </p>
+                  </div>
                 </div>
-                <h2>Register</h2>
-
-                <Form onSubmit={handleClick}>
-                  <FormGroup>
-                    <input
-                      type="text"
-                      placeholder="Username"
-                      required
-                      id="username"
-                      onChange={handleChange}
-                    />
-                  </FormGroup>
-                  <FormGroup>
-                    <input
-                      type="email"
-                      placeholder="Enter your email"
-                      required
-                      id="email"
-                      onChange={handleChange}
-                    />
-                  </FormGroup>
-                  <FormGroup>
-                    <input
-                      type="password"
-                      placeholder="Enter your password"
-                      required
-                      id="password"
-                      onChange={handleChange}
-                    />
-                  </FormGroup>
-                  <Button
-                    className="btn secondary__btn auth__btn"
-                    type="submit"
-                  >
-                    Create Account
-                  </Button>
-                </Form>
-                <p>
-                  Already have an account? <Link to="/login">Login</Link>
-                </p>
-              </div>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+      )}
+    </>
   );
 };
 
