@@ -43,6 +43,7 @@ const TourDetails = () => {
   // submit request to the server
   const submitHandler = async (e) => {
     e.preventDefault();
+    console.log(document.cookie);
     const reviewText = reviewsMsgRef.current.value;
 
     try {
