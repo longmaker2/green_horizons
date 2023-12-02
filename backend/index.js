@@ -14,7 +14,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
-  origin: "www.longmaker.tech",
+  origin: "*",
   credentials: true,
 };
 
