@@ -14,7 +14,10 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
-  origin: ["www.longmaker.tech", "https://long-green-horizons.vercel.app"],
+  origin: [
+    "https//www.longmaker.tech",
+    "https://long-green-horizons.vercel.app",
+  ],
   credentials: true,
 };
 
