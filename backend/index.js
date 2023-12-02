@@ -22,7 +22,7 @@ const corsOptions = {
   sameSite: "None",
 };
 
-// Applys CORS middleware at the top
+// Apply CORS middleware at the top
 app.use(cors(corsOptions));
 
 // database connection
@@ -31,6 +31,8 @@ const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       dbName: "tour-booking",
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
     });
 
     console.log("MongoDB database connected");
