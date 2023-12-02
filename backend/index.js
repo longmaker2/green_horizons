@@ -31,8 +31,6 @@ const connect = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
       dbName: "tour-booking",
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
     });
 
     console.log("MongoDB database connected");
@@ -58,5 +56,5 @@ app.get("/", (req, res) => {
 
 app.listen(port, () => {
   connect();
-  console.log("server listening on port", port);
+  console.log("Server listening on port", port);
 });
