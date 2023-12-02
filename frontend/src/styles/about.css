@@ -1,16 +1,46 @@
+section {
+  padding: 40px 0;
+}
+
 .about-container {
-  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+.about__text {
+  font-size: 1.5rem;
+}
+
+.text-center {
   text-align: center;
+  color: #2ecc71;
 }
 
-.about-container h1 {
-  color: #4caf50;
+.text-center:hover {
+  color: var(--secondary-color);
 }
 
-.about-container p {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 20px;
+.about__text p {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.about__text p:hover {
+  color: var(--text-color);
+  transition: color 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-container {
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .about__text {
+    font-size: 1.2rem;
+  }
 }
