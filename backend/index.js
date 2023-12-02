@@ -15,7 +15,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
   origin: [
-    "https//www.longmaker.tech",
+    "https://www.longmaker.tech",
     "https://long-green-horizons.vercel.app",
   ],
   credentials: true,
