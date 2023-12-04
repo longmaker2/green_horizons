@@ -5,6 +5,9 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
+import tourImg09 from "../images/tour-img09.jpg";
+import tourImg10 from "../images/tour-img10.jpg";
+import tourImg11 from "../images/tour-img11.jpg";
 
 const tours = [
   {
@@ -141,7 +144,7 @@ const tours = [
   },
   {
     id: "08",
-    title: "Mountain Imatong",
+    title: "Mount Imatong",
     city: "Kapoeta, South Sudan",
     distance: 500,
     address: "Eastern Equatoria State",
@@ -150,7 +153,49 @@ const tours = [
     desc: "Mount Imatong is a mountain in South Sudan. It is located in the Imatong Central Forest Reserve, in Eastern Equatoria State, in the southeastern part of South Sudan, near the International border with the Republic of Uganda. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Mount Imatong are: 4°59′00″N 32°00′00″E. Mount Imatong is the highest mountain in South Sudan. It is also the highest mountain in the Imatong Central Forest Reserve. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Mount Imatong are: 4°59′00″N 32°00′00″E. The mountain rises to an elevation of 3,187 metres (10,456 ft), above sea level. The terrain surrounding the mountain is hilly, with scattered trees and shrubs. The mountain is located in the Imatong Central Forest Reserve, a protected area in South Sudan.",
     reviews: [],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg09,
+    featured: false,
+  },
+  {
+    id: "09",
+    title: "Mount Kinyeti",
+    city: "Kapoeta, South Sudan",
+    distance: 100,
+    address: "Eastern Equatoria State",
+    price: 99,
+    maxGroupSize: 5,
+    desc: "Mount Kinyeti is a mountain in South Sudan. It is located in the Imatong Central Forest Reserve, in the state of Eastern Equatoria, in the southeastern part of South Sudan, near the international border with the Republic of Uganda. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Mount Kinyeti are: 4°59′00″N 32°00′00″E. Mount Kinyeti is the second-highest mountain in South Sudan, with an elevation of 3,187 metres (10,456 ft).",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg11,
+    featured: false,
+  },
+  {
+    id: "10",
+    title: "Jebel Kujur",
+    city: "Juba, South Sudan",
+    distance: 500,
+    address: "Central Equatoria State",
+    price: 99,
+    maxGroupSize: 8,
+    desc: "Jebel Kujur is a mountain in South Sudan. It is located in the state of Central Equatoria, in the southeastern part of South Sudan, near the international border with the Republic of Uganda. The mountain is located approximately 200 kilometres (120 mi), by road, southeast of Juba, the capital and largest city in South Sudan. The coordinates of Jebel Kujur are: 4°59′00″N 32°00′00″E. Jebel Kujur is the third-highest mountain in South Sudan, with an elevation of 3,187 metres (10,456 ft).",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg11,
+    featured: false,
+  },
+  {
+    id: "11",
+    title: "Visit the John Garang Mausoleum",
+    city: "Juba, South Sudan",
+    distance: 500,
+    address: "Central Equatoria State",
+    price: 99,
+    maxGroupSize: 8,
+    desc: "The John Garang Mausoleum is a monument in Juba, South Sudan. It was built in honor of John Garang, the founder of the Sudan People's Liberation Army and the first Vice President of South Sudan. The mausoleum is located in the southern part of Juba, near the Juba International Airport. The mausoleum is located approximately 3 kilometres (1.9 mi), by road, south of the central business district of Juba, the capital and largest city in South Sudan. The coordinates of the John Garang Mausoleum are: 4°50′48″N 31°35′24″E. The mausoleum is open to the public, free of charge, from 8:00 am until 6:00 pm, daily. The mausoleum is a popular tourist attraction in Juba, the capital and largest city in South Sudan.",
+    reviews: [],
+    avgRating: 4.5,
+    photo: tourImg10,
     featured: false,
   },
 ];
