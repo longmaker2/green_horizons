@@ -1,74 +1,101 @@
 # Green Horizons: South Sudan's Tourism & Wildlife Sanctuary
 
-## Project Setup
+## Description
 
-This MERN (MongoDB, Express, ReactJS, NodeJS) stack project aims to create an online platform to promote South Sudan's tourism and wildlife conservation. Follow the steps below to set up and run the project locally.
+Green Horizons is a MERN (MongoDB, Express, ReactJS, NodeJS) stack project designed to promote tourism and wildlife conservation in South Sudan. This platform provides users with information about South Sudan's natural and cultural heritage, facilitates bookings, and fosters engagement and reviews.
+
+## GitHub Repository
+
+[Project Repository](https://github.com/longmaker2/green_horizons.git)
+
+## Project Setup
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) installed on your machine.
 - [MongoDB](https://www.mongodb.com/) database server installed and running.
 
-## Installation
+### Installation
 
-### 1. Clone the Repository:
+#### 1. Clone the Repository:
 
-`git clone https://github.com/longmaker2/green_horizons.git`
+```sh
+git clone https://github.com/longmaker2/green_horizons.git
+```
 
-### 2. Navigate to the Project Directory:
+#### 2. Navigate to the Project Directory
 
-    ```cd green_horizons```
+```sh
+cd green_horizons
+```
 
-### 3. Install Server Dependencies:
+#### 3. Install Backend Dependencies:
 
-    ```cd backend```
-    ```npm install```
+```sh
+cd backend
+npm install
+```
 
-### 4. Configure the Environment:
+#### 4. Configure the Environment:
 
-### 5. Run the Server:
+- Create a `.env` file in the backend directory and add necessary environment variables, such as MongoDB connection string and JWT secret key.
 
-    ```npm start```
+#### 5. Run the Server:
 
-### 6. Run the ReactJS app for Frontend:
+```sh
+npm run start-dev
+```
 
-    ```cd ../frontend```
-    ```npm start```
+#### 6. Install Frontend Dependencies:
 
-### 7. Access the Application:
+```sh
+cd ../frontend
+npm install
+```
 
-    - Open your browser and go to http://localhost:3000.
-    - On Your Network Using the IP address
+#### 7. Run the ReactJS App:
 
-### 8. Project Structure
+```sh
+npm start
+```
 
-    - backend: Contains the Node.js server code using Express.
-    - frontend: Holds the ReactJS client-side code.
-    - database: MongoDB database models and connection setup.
-    - public: Public assets for the ReactJS application.
-    - config: Configuration files for the project.
+#### 8. Access the Application:
 
-### 9. Technology Stack
+- Open your browser and go to [http://localhost:3000](http://localhost:3000)
 
-    Front-end:
-        - React.js
-        - HTML5, CSS3
-        - Axios for API requests
+## Designs
 
-    Back-end:
-        - Node.js
-        - Express.js
-        - MongoDB for database
+- **Figma Mockups:** [Link to Figma Designs](https://www.figma.com/design/l7zCCpkOlNWVv5oRDPTTIi/South-Sudan-Horizons-Figma?node-id=37-2&t=bf8XGcFuDJOuj915-1)
 
-### 10. Contributing
+## Deployment Plan
 
-    Contributions are welcome! Please follow the contribution guidelines before submitting pull requests.
+- **Hosting Platform:** Consider deploying the frontend on Vercel and the backend on Render.
+- **Database Deployment:** Use MongoDB Atlas for cloud-based database hosting.
 
-### 11. License
+## Video Demo
 
-### 12. Acknowledgments
+- [Upload a demonstration video (5 to 10 minutes) showcasing app functionalities.](https://drive.google.com/file/d/1EkUPkVwo5uWB-8W336UfJwis3S4YvQn8/view?usp=sharing)
+
+## Code Files
+
+- The repository contains all relevant code files for both the frontend and backend.
+
+## Technology Stack
+
+### Front-end:
+
+- React.js
+- Bootstrap and CSS styles
+
+### Back-end:
+
+- Node.js
+- Express.js
+- MongoDB for database
+
+## Acknowledgments
 
 For detailed documentation and support, please visit the [project repository](https://github.com/longmaker2/green_horizons.git).
 
-Author: Long Maker Long Deng
-Email: l.deng@alusutudent.com
+**Author:** Long Maker Long Deng  
+**Email:** l.deng@alustudent.com

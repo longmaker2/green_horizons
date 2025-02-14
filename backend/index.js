@@ -17,6 +17,7 @@ const corsOptions = {
   origin: [
     "https://www.longmaker.tech",
     "https://long-green-horizons.vercel.app",
+    "http://localhost:3000",
   ],
   credentials: true,
   sameSite: "None",
